@@ -1,0 +1,15 @@
+// 1. Create boolean variables.
+let isJsProgrammingLanguage = true;
+let isJsHard = false;
+
+// 2. Create a number variable and add undefined.
+let favNumb = 7; // Replace with your favorite number
+
+//Adding undefined to a number will result in NaN (Not a Number)
+let undefinedAddition = favNumb + undefined;
+
+// 3. Log the variables to the console.
+console.log("Is JavaScript a programming language?", isJsProgrammingLanguage);
+console.log("Is JavaScript hard?", isJsHard);
+console.log("Favorite Number:", favNumb);
+console.log("Result of adding undefined to favorite number:", undefinedAddition); 
