@@ -1,0 +1,22 @@
+1. Create variables for the actor's name.
+let favActorFirstName = "Thomas"; // Replace with your favorite actor's first name
+let favActorLastName = "Middleditch"; // Replace with your favorite actor's last name
+
+// 2. Concatenate the full name.
+let fullName = favActorFirstName + " " + favActorLastName;
+
+// 3. Create uppercase version of the name.
+let uppercase = fullName.toUpperCase();
+
+// 4. Create the initial message.
+let message = "My favorite actor is " + uppercase;
+
+// 5. Append to the message.
+message += " and his best show is Silicon Valley"; // added "and" for better flow
+
+// 6. Log all variables to the console.
+console.log("First Name:", favActorFirstName);
+console.log("Last Name:", favActorLastName);
+console.log("Full Name:", fullName);
+console.log("Uppercase Name:", uppercase);
+console.log("Message:", message);
