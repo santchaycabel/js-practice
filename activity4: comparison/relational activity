@@ -1,0 +1,24 @@
+// 1. Create variables for favorite numbers.
+let firstFavNumb = 7; // Replace with your first favorite number
+let secondFavNumb = 3; // Replace with your second favorite number
+
+// 2. Perform comparisons.
+let greaterThan = firstFavNumb > secondFavNumb;
+let lessThan = firstFavNumb < secondFavNumb;
+let greaterThanOrEqualTo = firstFavNumb >= secondFavNumb;
+let lessThanOrEqualTo = firstFavNumb <= secondFavNumb;
+let strictEquality = firstFavNumb === secondFavNumb;
+let looseEquality = firstFavNumb == secondFavNumb;
+let strictInequality = firstFavNumb !== secondFavNumb;
+let looseInequality = firstFavNumb != secondFavNumb;
+
+// 3. Log the results to the console.
+console.log("Greater than:", greaterThan);
+console.log("Less than:", lessThan);
+console.log("Greater than or equal to:", greaterThanOrEqualTo);
+console.log("Less than or equal to:", lessThanOrEqualTo);
+console.log("Strict equality (===):", strictEquality);
+console.log("Loose equality (==):", looseEquality);
+console.log("Strict inequality (!==):", strictInequality);
+console.log("Loose inequality (!=):", looseInequality);
+
