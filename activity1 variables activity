@@ -1,0 +1,17 @@
+/ Create a variable named name and store your name.
+let name = "Santchay"; 
+
+// Create a variable named whatDoYouWannaBecomeInYourLife and store "programmer".
+let whatDoYouWannaBecomeInYourLife = "programmer";
+
+// Create a variable named gender and store your gender.
+let gender = "Female"; // Replace "Female" with your actual gender
+
+// Create a variable named twitterHandle and store your Twitter handle.  
+let twitterHandle = "@santchaycabel"; 
+
+// Log all the variables to the console.
+console.log("Name:", name);
+console.log("Desired Profession:", whatDoYouWannaBecomeInYourLife);
+console.log("Gender:", gender);
+console.log("Twitter Handle:", twitterHandle);
